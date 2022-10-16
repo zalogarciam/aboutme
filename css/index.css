@@ -1,0 +1,20 @@
+@import url(./modules/card.css);
+@import url(./modules/header.css);
+@import url(./modules/layout.css);
+@import url(./modules/nav.css);
+@import url(./modules/menu.css);
+@import url(./modules/buttons.css);
+@import url(./modules/variable.css);
+@import url(./modules/hero.css);
+@import url(./modules/animation.css);
+@import './modules/swiper.css';
+
+.body {
+    background-color: var(--primary-theme-color);
+    color: var(--primary-text-color);
+    font-family: var(--primary-font-family);
+    margin: 0;
+    background-image: url('../../img/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

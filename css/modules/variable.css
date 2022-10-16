@@ -1,0 +1,11 @@
+:root {
+    scroll-behavior: smooth;
+    --primary-theme-color: #20232a;
+    --primary-text-color: white;
+    --primary-font-family: 'Silkscreen', monospace;
+    --primary-highlight-color: aqua;
+    --primary-shadow-color: #00000080;
+    --secondary-shadow-color: #00000040;
+    --reverse-primary-shadow-color: #00000080;
+    --reverse-secondary-shadow-color: #00000040;
+}

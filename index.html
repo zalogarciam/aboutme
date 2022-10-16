@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Gonzalo</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="./css/index.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<body class="body">
+    <header class="header">
+        <nav class="nav">
+            <div class="container elements elements--header-nav">
+                <a href="#hero">
+                    <img src="./img/dibujo_chibi1.jpg" alt="Gonzalo" width="48" class="nav__logo">
+                </a>
+                <button class="nav__icon nav__icon--menu" id="navIconMenu">
+                    <i class="bi bi-list"></i>
+                  </button>
+                
+                  <ul class="menu menu--header">
+                    <li>
+                        <a href="#hero" class="menu__link">
+                            Perfil
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="menu__link">
+                            Experiencia
+                        </a>
+                    </li>  
+                    <li class="nav__icon nav__icon--close" id="navIconClose">
+                        <i class="bi bi-x-circle"></i>
+                    </li>            
+                </ul>
+            </div>
+        </nav>
+    </header>
+   <main>
+    <article class="section section--hero" id="projects">
+        <div class="container elements elements--hero">
+            <div class="card">
+                <div class="card__header">
+                    <h1>
+                        Gonzalo Garcia
+                    </h1>
+                </div>
+                <div class="card__body">
+                    <h2 class="card__subtitle">
+                        The best software developer
+                    </h2>
+                    <p class="card__text">
+                        You can contact me on my website zalogarciam.com
+                    </p>
+                </div>
+                <div class="card__footer">
+                    <div class="buttons">
+                        <a href="https://github.com/zalogarciam" class="button" target="_blank" rel="noopenernoreferrer">
+                            CV
+                        </a>
+                        <a href="https://github.com/zalogarciam" class="button button--primary" target="_blank" rel="noopenernoreferrer">
+                            CV
+                        </a>
+                        <div href="https://github.com/zalogarciam" class="button" >
+                            Github
+                        </div>
+                        <button href="#" class="button">
+                            Web
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="./img/YO-min.jpg" alt="Gonzalo" width="256" class="hero-img__img">
+                <figure class="hero-img__decorators">
+                    <img class="hero-img__decorator" src="./assets/svg/c-sharp-svgrepo-com.svg" width="64" height="64" alt="">
+                    <img class="hero-img__decorator" src="./assets/svg/python-svgrepo-com.svg" width="64" height="64" alt="">
+                    <img class="hero-img__decorator" src="./assets/svg/react-svgrepo-com.svg" width="64" height="64" alt="">
+                    <img class="hero-img__decorator" src="./assets/svg/js-svgrepo-com.svg" width="64" height="64" alt="">
+                    <!-- <img class="hero-img__decorator" src="./assets/svg/css-3-svgrepo-com.svg" width="64" height="64" alt="">
+                    <img class="hero-img__decorator" src="./assets/svg/html-5-svgrepo-com.svg" width="64" height="64" alt=""> -->
+                </figure>
+            </div>
+        </div>
+    </article>
+    <section class="section section--h-100" id="projects">
+        <h2>Un poco sobre mi</h2>
+    <div class="container">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./img/BPR.jpg"  class="s" width="100%" height="100%" alt="">
+            </div>
+            <div class="swiper-slide"  class="s" >
+                <img src="./img/face.png" width="100%" height="100%" alt="">
+
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/back.png" class="s"  class="s"width="100%" height="100%" alt="">
+
+            </div>
+            ...
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+   </main>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="./js/index.js"></script>
+    
+
+</body>
+</html>
+
