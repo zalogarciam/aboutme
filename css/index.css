@@ -16,6 +16,6 @@
     font-family: var(--primary-font-family);
     margin: 0;
     background-image: url('../../img/background2.jpg');
-    background-repeat: no-repeat;
+    background-repeat:repeat;
     background-size: cover;
 }
