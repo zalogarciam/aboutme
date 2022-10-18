@@ -26,13 +26,18 @@
                 
                   <ul class="menu menu--header">
                     <li>
-                        <a href="#hero" class="menu__link">
-                            Perfil
+                        <a href="#hero" class="menu__link" id="navButtonProfile">
+                            Profile
                         </a>
                     </li>
                     <li>
-                        <a href="#projects" class="menu__link">
-                            Experiencia
+                        <a href="#projects" class="menu__link" id="navButtonExperience">
+                            Experience
+                        </a>
+                    </li>  
+                    <li>
+                        <a href="#contact" class="menu__link" id="navButtonExperience">
+                            Contact
                         </a>
                     </li>  
                     <li class="nav__icon nav__icon--close" id="navIconClose">
@@ -91,7 +96,7 @@
     <section class="section section--h-100" id="projects">
         <div class="container ">
 
-            <h2>Experiencia</h2>
+            <h2>Experience</h2>
             <div class="card">
                 <div class="card__header">
                     <h1>
@@ -157,29 +162,54 @@ to investigate and evaluate the UX and user behaviour against Climate Change.
                 </div>
             </div>
         </div>
-    <!-- <div class="container">
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="./img/BPR.jpg"  class="s" width="100%" height="100%" alt="">
-            </div>
-            <div class="swiper-slide"  class="s" >
-                <img src="./img/face.png" width="100%" height="100%" alt="">
+        <section>
+    <section class="slider">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./img/11.png" class="swiper__img" width="100%" height="100%" alt="">
+                </div>
+                <div class="swiper-slide" >
+                    <img src="./img/22.png" class="swiper__img" width="100%" height="100%" alt="">
 
-            </div>
-            <div class="swiper-slide">
-                <img src="./img/back.png" class="s"  class="s"width="100%" height="100%" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/33.png" class="swiper__img" width="100%" height="100%" alt="">
 
+                </div>
+                ...
             </div>
-            ...
-          </div>
-          <div class="swiper-pagination"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            </div>
         </div>
-      </div> -->
     </section>
+
+    </section>
+        <section id="contact" class="form__contact">
+            <div class="container">
+                <h1 class="form__title">
+                    Contact me
+                </h1>
+                <form name="contact" method="post" class="form">
+                    <label class="form__label">Name</label>
+                    <input type="text" name="name" class="form__input"/>
+                    <label class="form__label">Subject</label>
+                    <input type="text" name="subject" class="form__input"/>
+                    <label class="form__label">Phone Number</label>
+                    <input type="text" name="phone" class="form__input"/>
+                    <label class="form__label">Message</label>
+                    <textarea name="message" class="form__input" rows="6"></textarea>
+                
+                    <input class="button form__button" type="submit" name="send" value="Send Message" />
+                </form>    
+            </div>
+        </section>
    </main>
+  
    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
    <script src="./js/index.js"></script>
 

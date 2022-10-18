@@ -9,6 +9,7 @@
 @import url(./modules/animation.css);
 @import './modules/swiper.css';
 @import url(./modules/footer.css);
+@import url(./modules/form.css);
 .body {
     background-color: var(--primary-theme-color);
     color: var(--primary-text-color);

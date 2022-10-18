@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    text-align: left;
+    justify-content: center;
+}
+
+.form__label{
+    font-size: 1.5rem;
+}
+
+.form__input{
+    font-size: 1rem;
+    font-family: var(--primary-font-family);
+    margin: 0rem 0rem 1rem 0rem;
+    border-radius: 7px;
+}
+
+.form__button{
+    margin: auto;
+    width: 200px;
+}
+
+.form__title{
+    margin: 4rem 1rem;
+    font-size: 2rem;
+}
+
+.form__contact{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 2rem 0rem;
+}

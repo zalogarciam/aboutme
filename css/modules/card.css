@@ -31,7 +31,7 @@
 }
 
 .card__text {
-    display: none;
+    /* display: none; */
 }
 
 .card__header,
